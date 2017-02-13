@@ -28,10 +28,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Dismiss Keyboard
-        
-       
-        
         self.userField.delegate = self
         self.passField.delegate = self
         
@@ -57,18 +53,36 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func login(_ sender: Any) {
         
-        let user = "Guillermo"
-        let pass = "Password"
+        let user = "cosc"
+        let pass = "3326"
         
-        if (userField.text == user && passField.text == pass) {
+        let isValidLogin = (userField.text == user && passField.text == pass)
+        
+        
+        if (isValidLogin) {
+            
+            /*
+            
             statusLabel.text = String(format: "Welcome, %@", user)
             
             let alert = UIAlertController(title: "Success", message: String(format: "Welcome, %@", user), preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
             
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            self.present(alert, animated: true, completion: nil)
+ 
+            */
+            
+            let goToWelcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "loginApp.welcomeVC")
+            as! WelcomeViewController
+            
+            goToWelcomeVC.modalTransitionStyle = .flipHorizontal
+            
+            self.present(goToWelcomeVC, animated: true, completion: nil)
         }
+            
         else {
+            
             statusLabel.text = String(format: "Incorrect Username/Password")
             
             let alert = UIAlertController(title: "Failure", message: String(format: "Incorrect Username/Password"), preferredStyle: UIAlertControllerStyle.alert)
@@ -76,13 +90,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self.present(alert, animated: true, completion: nil)
         }
         
-        /*
-        let alert = UIAlertController(title: "Welcome to Mobile Programming", message: "Hi.", preferredStyle: UIAlertControllerStyle.alert)
         
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-        
-        self.present(alert, animated: true, completion: nil)
-        */
         
     }
 

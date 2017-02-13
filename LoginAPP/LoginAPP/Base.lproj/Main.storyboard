@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTe-QX-QWW">
-                                <rect key="frame" x="107" y="108" width="162" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTe-QX-QWW">
+                                <rect key="frame" x="136" y="108" width="103" height="45"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="38"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -60,8 +60,8 @@
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bwI-vK-Pj0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your credentials" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyg-Yb-Nea">
-                                <rect key="frame" x="82.5" y="161" width="210.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your credentials" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyg-Yb-Nea">
+                                <rect key="frame" x="48" y="161" width="279" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -75,6 +75,7 @@
                             <constraint firstItem="Gam-8R-6VR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="242" id="ISg-l6-vgy"/>
                             <constraint firstItem="Pas-oO-qTE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="455" id="If5-G1-HUL"/>
                             <constraint firstItem="lI6-85-2AD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="247:667" id="KP6-ZH-IXu"/>
+                            <constraint firstItem="Iyg-Yb-Nea" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="229:667" constant="50" id="Rcm-MK-aie"/>
                             <constraint firstItem="RTe-QX-QWW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uhs-wp-edR"/>
                             <constraint firstItem="RTe-QX-QWW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88" id="bME-7F-CzT"/>
                             <constraint firstItem="lI6-85-2AD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="325" id="e11-IT-o57"/>
@@ -93,5 +94,71 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="7TB-Uu-8ti">
+            <objects>
+                <viewController storyboardIdentifier="loginApp.welcomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sik-xp-3hV" customClass="WelcomeViewController" customModule="LoginAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ko7-Na-AE8"/>
+                        <viewControllerLayoutGuide type="bottom" id="yTi-hv-1Cx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3pv-0x-T2f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbk-Mh-rkz">
+                                <rect key="frame" x="142" y="101" width="91" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="38"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, %@" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIE-K7-llA">
+                                <rect key="frame" x="82" y="154" width="210.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HIE-K7-llA" secondAttribute="height" multiplier="10:1" id="cM7-vt-Ewb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="http---o.aolcdn.com-hss-storage-midas-f731261af0ce5952b1184bed9d77dea4-204927565-Trash+Doves+Memes" translatesAutoresizingMaskIntoConstraints="NO" id="TSX-X3-XeP">
+                                <rect key="frame" x="84" y="318" width="207" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="Oux-Je-s4C"/>
+                                    <constraint firstAttribute="height" constant="178" id="hUe-pz-Ynz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGC-FZ-oyq">
+                                <rect key="frame" x="127" y="220" width="121" height="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="1" green="0.86193495990000002" blue="0.5828880072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVR-bD-xEo"/>
+                                    <action selector="signOut:" destination="sik-xp-3hV" eventType="touchUpInside" id="4Uf-XL-vOX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84313725490196079" green="0.40000000000000002" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kGC-FZ-oyq" firstAttribute="top" secondItem="Ko7-Na-AE8" secondAttribute="bottom" constant="200" id="0m3-wv-voj"/>
+                            <constraint firstItem="TSX-X3-XeP" firstAttribute="centerX" secondItem="3pv-0x-T2f" secondAttribute="centerX" id="JLG-8v-H3c"/>
+                            <constraint firstItem="kGC-FZ-oyq" firstAttribute="centerX" secondItem="3pv-0x-T2f" secondAttribute="centerX" id="LCK-sw-6fC"/>
+                            <constraint firstItem="TSX-X3-XeP" firstAttribute="top" secondItem="Ko7-Na-AE8" secondAttribute="bottom" constant="298" id="Nmf-UL-xp1"/>
+                            <constraint firstItem="Jbk-Mh-rkz" firstAttribute="top" secondItem="Ko7-Na-AE8" secondAttribute="bottom" constant="81" id="be6-5X-tbm"/>
+                            <constraint firstItem="HIE-K7-llA" firstAttribute="top" secondItem="Ko7-Na-AE8" secondAttribute="bottom" constant="134" id="cHH-Yv-YCp"/>
+                            <constraint firstItem="HIE-K7-llA" firstAttribute="centerX" secondItem="3pv-0x-T2f" secondAttribute="centerX" id="fdJ-9S-6jN"/>
+                            <constraint firstItem="Jbk-Mh-rkz" firstAttribute="centerX" secondItem="3pv-0x-T2f" secondAttribute="centerX" id="naZ-BB-Usz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8e-3w-IwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="38"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="http---o.aolcdn.com-hss-storage-midas-f731261af0ce5952b1184bed9d77dea4-204927565-Trash+Doves+Memes" width="299" height="309"/>
+    </resources>
 </document>
