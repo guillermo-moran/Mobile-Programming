@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B320F3871E676A5600F6526C /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320F3861E676A5600F6526C /* FoodCell.swift */; };
-		B3AB82851E64C6920060F9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB82841E64C6920060F9DE /* AppDelegate.swift */; };
-		B3AB82871E64C6920060F9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB82861E64C6920060F9DE /* ViewController.swift */; };
-		B3AB828A1E64C6920060F9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AB82881E64C6920060F9DE /* Main.storyboard */; };
-		B3AB828C1E64C6920060F9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AB828B1E64C6920060F9DE /* Assets.xcassets */; };
-		B3AB828F1E64C6920060F9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AB828D1E64C6920060F9DE /* LaunchScreen.storyboard */; };
+		B3AB82A31E653D2F0060F9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB82A21E653D2F0060F9DE /* AppDelegate.swift */; };
+		B3AB82A51E653D2F0060F9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB82A41E653D2F0060F9DE /* ViewController.swift */; };
+		B3AB82A81E653D2F0060F9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AB82A61E653D2F0060F9DE /* Main.storyboard */; };
+		B3AB82AA1E653D2F0060F9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AB82A91E653D2F0060F9DE /* Assets.xcassets */; };
+		B3AB82AD1E653D2F0060F9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AB82AB1E653D2F0060F9DE /* LaunchScreen.storyboard */; };
+		B3AB82B51E65664C0060F9DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB82B41E65664C0060F9DE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B320F3861E676A5600F6526C /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
-		B3AB82811E64C6920060F9DE /* FavoriteRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AB82841E64C6920060F9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3AB82861E64C6920060F9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3AB82891E64C6920060F9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3AB828B1E64C6920060F9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3AB828E1E64C6920060F9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B3AB82901E64C6920060F9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AB829F1E653D2F0060F9DE /* PortolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AB82A21E653D2F0060F9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3AB82A41E653D2F0060F9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3AB82A71E653D2F0060F9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3AB82A91E653D2F0060F9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3AB82AC1E653D2F0060F9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3AB82AE1E653D2F0060F9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AB82B41E65664C0060F9DE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B3AB827E1E64C6920060F9DE /* Frameworks */ = {
+		B3AB829C1E653D2F0060F9DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,74 +37,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B3AB82781E64C6920060F9DE = {
+		B3AB82961E653D2F0060F9DE = {
 			isa = PBXGroup;
 			children = (
-				B3AB82831E64C6920060F9DE /* FavoriteRestaurants */,
-				B3AB82821E64C6920060F9DE /* Products */,
+				B3AB82A11E653D2F0060F9DE /* PortolioApp */,
+				B3AB82A01E653D2F0060F9DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B3AB82821E64C6920060F9DE /* Products */ = {
+		B3AB82A01E653D2F0060F9DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3AB82811E64C6920060F9DE /* FavoriteRestaurants.app */,
+				B3AB829F1E653D2F0060F9DE /* PortolioApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3AB82831E64C6920060F9DE /* FavoriteRestaurants */ = {
+		B3AB82A11E653D2F0060F9DE /* PortolioApp */ = {
 			isa = PBXGroup;
 			children = (
-				B3AB82841E64C6920060F9DE /* AppDelegate.swift */,
-				B3AB82861E64C6920060F9DE /* ViewController.swift */,
-				B320F3861E676A5600F6526C /* FoodCell.swift */,
-				B3AB82881E64C6920060F9DE /* Main.storyboard */,
-				B3AB828B1E64C6920060F9DE /* Assets.xcassets */,
-				B3AB828D1E64C6920060F9DE /* LaunchScreen.storyboard */,
-				B3AB82901E64C6920060F9DE /* Info.plist */,
+				B3AB82A21E653D2F0060F9DE /* AppDelegate.swift */,
+				B3AB82A41E653D2F0060F9DE /* ViewController.swift */,
+				B3AB82A61E653D2F0060F9DE /* Main.storyboard */,
+				B3AB82B41E65664C0060F9DE /* DetailViewController.swift */,
+				B3AB82A91E653D2F0060F9DE /* Assets.xcassets */,
+				B3AB82AB1E653D2F0060F9DE /* LaunchScreen.storyboard */,
+				B3AB82AE1E653D2F0060F9DE /* Info.plist */,
 			);
-			path = FavoriteRestaurants;
+			path = PortolioApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3AB82801E64C6920060F9DE /* FavoriteRestaurants */ = {
+		B3AB829E1E653D2F0060F9DE /* PortolioApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3AB82931E64C6920060F9DE /* Build configuration list for PBXNativeTarget "FavoriteRestaurants" */;
+			buildConfigurationList = B3AB82B11E653D2F0060F9DE /* Build configuration list for PBXNativeTarget "PortolioApp" */;
 			buildPhases = (
-				B3AB827D1E64C6920060F9DE /* Sources */,
-				B3AB827E1E64C6920060F9DE /* Frameworks */,
-				B3AB827F1E64C6920060F9DE /* Resources */,
+				B3AB829B1E653D2F0060F9DE /* Sources */,
+				B3AB829C1E653D2F0060F9DE /* Frameworks */,
+				B3AB829D1E653D2F0060F9DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FavoriteRestaurants;
-			productName = FavoriteRestaurants;
-			productReference = B3AB82811E64C6920060F9DE /* FavoriteRestaurants.app */;
+			name = PortolioApp;
+			productName = PortolioApp;
+			productReference = B3AB829F1E653D2F0060F9DE /* PortolioApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B3AB82791E64C6920060F9DE /* Project object */ = {
+		B3AB82971E653D2F0060F9DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Guillermo Moran";
 				TargetAttributes = {
-					B3AB82801E64C6920060F9DE = {
+					B3AB829E1E653D2F0060F9DE = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 25M9266LN7;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B3AB827C1E64C6920060F9DE /* Build configuration list for PBXProject "FavoriteRestaurants" */;
+			buildConfigurationList = B3AB829A1E653D2F0060F9DE /* Build configuration list for PBXProject "PortolioApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +112,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B3AB82781E64C6920060F9DE;
-			productRefGroup = B3AB82821E64C6920060F9DE /* Products */;
+			mainGroup = B3AB82961E653D2F0060F9DE;
+			productRefGroup = B3AB82A01E653D2F0060F9DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3AB82801E64C6920060F9DE /* FavoriteRestaurants */,
+				B3AB829E1E653D2F0060F9DE /* PortolioApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3AB827F1E64C6920060F9DE /* Resources */ = {
+		B3AB829D1E653D2F0060F9DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AB828F1E64C6920060F9DE /* LaunchScreen.storyboard in Resources */,
-				B3AB828C1E64C6920060F9DE /* Assets.xcassets in Resources */,
-				B3AB828A1E64C6920060F9DE /* Main.storyboard in Resources */,
+				B3AB82AD1E653D2F0060F9DE /* LaunchScreen.storyboard in Resources */,
+				B3AB82AA1E653D2F0060F9DE /* Assets.xcassets in Resources */,
+				B3AB82A81E653D2F0060F9DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3AB827D1E64C6920060F9DE /* Sources */ = {
+		B3AB829B1E653D2F0060F9DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AB82871E64C6920060F9DE /* ViewController.swift in Sources */,
-				B320F3871E676A5600F6526C /* FoodCell.swift in Sources */,
-				B3AB82851E64C6920060F9DE /* AppDelegate.swift in Sources */,
+				B3AB82B51E65664C0060F9DE /* DetailViewController.swift in Sources */,
+				B3AB82A51E653D2F0060F9DE /* ViewController.swift in Sources */,
+				B3AB82A31E653D2F0060F9DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3AB82881E64C6920060F9DE /* Main.storyboard */ = {
+		B3AB82A61E653D2F0060F9DE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B3AB82891E64C6920060F9DE /* Base */,
+				B3AB82A71E653D2F0060F9DE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B3AB828D1E64C6920060F9DE /* LaunchScreen.storyboard */ = {
+		B3AB82AB1E653D2F0060F9DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B3AB828E1E64C6920060F9DE /* Base */,
+				B3AB82AC1E653D2F0060F9DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B3AB82911E64C6920060F9DE /* Debug */ = {
+		B3AB82AF1E653D2F0060F9DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		B3AB82921E64C6920060F9DE /* Release */ = {
+		B3AB82B01E653D2F0060F9DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,27 +261,27 @@
 			};
 			name = Release;
 		};
-		B3AB82941E64C6920060F9DE /* Debug */ = {
+		B3AB82B21E653D2F0060F9DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 25M9266LN7;
-				INFOPLIST_FILE = FavoriteRestaurants/Info.plist;
+				INFOPLIST_FILE = PortolioApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.cosc.FavoriteRestaurants;
+				PRODUCT_BUNDLE_IDENTIFIER = me.cosc.PortolioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		B3AB82951E64C6920060F9DE /* Release */ = {
+		B3AB82B31E653D2F0060F9DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 25M9266LN7;
-				INFOPLIST_FILE = FavoriteRestaurants/Info.plist;
+				INFOPLIST_FILE = PortolioApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.cosc.FavoriteRestaurants;
+				PRODUCT_BUNDLE_IDENTIFIER = me.cosc.PortolioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -290,25 +290,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3AB827C1E64C6920060F9DE /* Build configuration list for PBXProject "FavoriteRestaurants" */ = {
+		B3AB829A1E653D2F0060F9DE /* Build configuration list for PBXProject "PortolioApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AB82911E64C6920060F9DE /* Debug */,
-				B3AB82921E64C6920060F9DE /* Release */,
+				B3AB82AF1E653D2F0060F9DE /* Debug */,
+				B3AB82B01E653D2F0060F9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3AB82931E64C6920060F9DE /* Build configuration list for PBXNativeTarget "FavoriteRestaurants" */ = {
+		B3AB82B11E653D2F0060F9DE /* Build configuration list for PBXNativeTarget "PortolioApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AB82941E64C6920060F9DE /* Debug */,
-				B3AB82951E64C6920060F9DE /* Release */,
+				B3AB82B21E653D2F0060F9DE /* Debug */,
+				B3AB82B31E653D2F0060F9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B3AB82791E64C6920060F9DE /* Project object */;
+	rootObject = B3AB82971E653D2F0060F9DE /* Project object */;
 }
