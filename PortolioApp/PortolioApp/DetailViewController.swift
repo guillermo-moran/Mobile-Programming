@@ -104,11 +104,21 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let url = URL(string: link)
-        
-        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
-        
+        openBrowser(title: "More Info", link: link)
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func openBrowser(title : String, link : String) {
+        
+        let browserVC = self.storyboard?.instantiateViewController(withIdentifier: "browserVC")
+            as! BrowserViewController
+        
+        browserVC.titleString = title
+        browserVC.linkString  = link
+        
+        self.show(browserVC, sender: nil)
+        
+        
     }
     
 

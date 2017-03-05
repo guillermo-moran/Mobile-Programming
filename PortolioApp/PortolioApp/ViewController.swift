@@ -139,7 +139,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
         else {
-            UIApplication.shared.open(URL(string: aboutMeURLS[indexPath.row])!, options: [:], completionHandler: nil)
+            title = linksArray[index]
+            link = aboutMeURLS[index]
+            self.openBrowser(title: title, link: link)
 
         }
         
@@ -223,6 +225,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return tableCell
             
         }
+        
+    }
+    
+    
+    func openBrowser(title : String, link : String) {
+        
+        let browserVC = self.storyboard?.instantiateViewController(withIdentifier: "browserVC")
+            as! BrowserViewController
+        
+        browserVC.titleString = title
+        browserVC.linkString  = link
+        
+        self.show(browserVC, sender: nil)
         
     }
 
